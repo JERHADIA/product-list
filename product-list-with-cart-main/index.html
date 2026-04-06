@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product list with cart</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+IN+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1> Desserts</h1>
+  <div class="container">
+    <div class="product-list">
+
+
+    </div>
+
+
+    <div class="checkout">
+      <p><span>Your Cart</span> <span class="cart-count">(0)</span> </p>
+
+      <!-- EMPTY STATE -->
+      <div class="empty-cart">
+        <img src="./assets/images/illustration-empty-cart.svg" alt="Empty Cart Illustration">
+        <p>Your added items will appear here</p>
+      </div>
+
+      <!-- FILLED CART  -->
+      <div class="cart-items"></div>
+
+      <!-- TOTAL -->
+      <div class="cart-total">
+        <p>Order Total</p>
+        <h4 class="total-price">$0</h4>
+      </div>
+
+      <div class="footer">
+        <img src="./assets/images/icon-carbon-neutral.svg" alt="Carbon Neutral Icon">
+        <p>This is a <small> carbon neutral</small> delivery </p>
+      </div>
+
+      <button class="checkout-btn">Confirm</button>
+
+      <div class="order">
+        <img src="./assets/images/icon-order-confirmed.svg">
+        <h2>Order Confirmed</h2>
+        <p>We hope you enjoy your food!</p>
+
+        <div class="order-items"></div>
+        <h3 class="order-total"></h3>
+
+        <button class="new-order-btn"> Start new order</button>
+      </div>
+
+    </div>
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
